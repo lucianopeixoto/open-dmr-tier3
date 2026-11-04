@@ -1,3 +1,25 @@
+> **Fork notice — experimental DMR Tier III trunking development.**
+>
+> This fork is used to develop experimental DMR Tier III trunking support per
+> ETSI TS 102 361-4 on top of OpenGD77. See
+> [docs/dmr-tier-iii-roadmap.md](docs/dmr-tier-iii-roadmap.md) for the project
+> plan and [firmware/source/dmrTier3/](firmware/source/dmrTier3/) for the
+> work-in-progress module scaffolding.
+>
+> * Target hardware: Baofeng DM-1801 and other NXP MK22 + AT1846S + HR-C6000
+>   based radios (Radioddity GD-77/GD-77S, Baofeng RD-5R).
+> * Upstream project: [rogerclarkmelbourne/OpenGD77](https://github.com/rogerclarkmelbourne/OpenGD77)
+>   — all credit to the original authors (Kai DG4KLU, Roger VK3KYY and
+>   contributors). The Tier III work is kept isolated in its own module behind
+>   a compile flag, so it may be proposed upstream as an opt-in feature in the
+>   future.
+> * The `main` branch of this fork is kept clean for upstream sync; all Tier III
+>   work happens on the `feature/dmr-tier-iii-trunking` branch.
+> * Testing is limited to the author's own experimental network or Tier 3
+>   systems whose operator has explicitly authorized testing.
+
+---
+
 # OpenGD77
 Firmware for DMR transceivers using the NXP MK22 MCU, AT1846S RF chip and HR-C6000 DMR chipset. This includes the Radioddiy GD-77, Radioddity GD-77s, Baofeng DM-1801 and Baofeng RD-5R.
 
