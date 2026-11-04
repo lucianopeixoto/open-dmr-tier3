@@ -8,11 +8,11 @@
 >
 > * Target hardware: Baofeng DM-1801 and other NXP MK22 + AT1846S + HR-C6000
 >   based radios (Radioddity GD-77/GD-77S, Baofeng RD-5R).
-> * Upstream project: [rogerclarkmelbourne/OpenGD77](https://github.com/rogerclarkmelbourne/OpenGD77)
->   — all credit to the original authors (Kai DG4KLU, Roger VK3KYY and
->   contributors). The Tier III work is kept isolated in its own module behind
->   a compile flag, so it may be proposed upstream as an opt-in feature in the
->   future.
+> * Forked from [open-ham/OpenGD77](https://github.com/open-ham/OpenGD77)
+>   (code preservation of the deleted rogerclarkmelbourne/OpenGD77) — all credit
+>   to the original authors (Kai DG4KLU, Roger VK3KYY and contributors). The Tier III
+>   work is kept isolated in its own module behind a compile flag, so it may be
+>   proposed upstream as an opt-in feature in the future.
 > * The `main` branch of this fork is kept clean for upstream sync; all Tier III
 >   work happens on the `feature/dmr-tier-iii-trunking` branch.
 > * Testing is limited to the author's own experimental network or Tier 3
